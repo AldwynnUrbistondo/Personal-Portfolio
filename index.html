@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal portfolio of Aldwynn Urbistondo, a game development student and Unity programmer. View projects, skills, and contact information.">
+  <meta name="theme-color" content="#08080b">
+  <title>Aldwynn Urbistondo | Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#home" class="brand" aria-label="Aldwynn Urbistondo, home">AU<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="primary-nav" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#home" class="nav-link active" aria-current="page">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <a class="header-contact" href="mailto:aldwynn.urbistondo.dev@gmail.com">Email me <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-anchor" id="home" aria-labelledby="hero-heading">
+      <div class="container hero-layout">
+        <div class="hero-main">
+          <div class="hero-intro">
+            <span class="eyebrow"><span class="status-dot"></span> GAME DEVELOPMENT PORTFOLIO</span>
+            <h1 id="hero-heading">Hi, I'm <span>Aldwynn Urbistondo.</span></h1>
+            <p class="hero-role">Game Programmer <span class="role-separator">/</span> Game Development Student</p>
+            <p class="hero-copy">I'm a fourth-year Entertainment and Multimedia Computing student majoring in Game Development. I use Unity and C# to develop gameplay systems for PC, mobile, and web games.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#portfolio">View my projects <span aria-hidden="true">↗</span></a>
+              <a class="button button-outline" href="#contact">Contact me</a>
+            </div>
+          </div>
+
+          <a class="hero-secondary" href="https://flintlock-games.itch.io/zipzap-ninja" target="_blank" rel="noopener noreferrer" aria-label="View ZipZap Ninja on itch.io">
+            <img src="assets/games/zipzap-ninja.png" alt="ZipZap Ninja game cover" width="315" height="250">
+            <span class="hero-secondary-info"><span class="small-label">SELECTED PROJECT</span><strong>ZipZap Ninja</strong><span class="secondary-detail">Global Game Jam 2026</span></span>
+            <span class="secondary-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <a class="hero-feature" href="https://flintlock-games.itch.io/etherfall" target="_blank" rel="noopener noreferrer" aria-label="View Etherfall on itch.io">
+          <img src="assets/games/etherfall.png" alt="Etherfall game cover" width="315" height="250" fetchpriority="high">
+          <span class="feature-shade" aria-hidden="true"></span>
+          <span class="hero-feature-top"><span class="mini-square" aria-hidden="true"></span> FEATURED GAME</span>
+          <span class="hero-feature-bottom"><span><span class="small-label">CAPSTONE PROJECT</span><strong>Etherfall</strong><span>3D Mobile Roguelike</span></span><span class="feature-arrow" aria-hidden="true">↗</span></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="about section-anchor" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-heading about-heading">
+          <div>
+            <p class="section-kicker">ABOUT ME</p>
+            <h2 id="about-heading">My Expertise<span>.</span></h2>
+          </div>
+          <p class="about-intro">I focus on game programming and enjoy working with teams on game jam and school projects. My experience includes gameplay systems, mobile development, and 3D asset optimization.</p>
+        </div>
+        <div class="expertise-grid">
+          <article class="expertise-card">
+            <span class="card-number">01 / PROGRAMMING</span>
+            <div class="expertise-symbol" aria-hidden="true">{ }</div>
+            <h3>Game Programming</h3>
+            <p>I work with Unity and C# to build gameplay mechanics, combat, inventory, player progression, and UI systems.</p>
+            <div class="skill-list"><span>Unity</span><span>C#</span><span>Gameplay Systems</span></div>
+          </article>
+          <article class="expertise-card">
+            <span class="card-number">02 / DEVELOPMENT</span>
+            <div class="expertise-symbol" aria-hidden="true">&lt;/&gt;</div>
+            <h3>Tools &amp; Languages</h3>
+            <p>I use Visual Studio, Git, and GitHub for development and collaboration. I've also worked with C++, Python, and Java.</p>
+            <div class="skill-list"><span>Visual Studio</span><span>Git / GitHub</span><span>C++ / Python / Java</span></div>
+          </article>
+          <article class="expertise-card">
+            <span class="card-number">03 / OTHER SKILLS</span>
+            <div class="expertise-symbol" aria-hidden="true">◇</div>
+            <h3>3D &amp; AR</h3>
+            <p>I use Blender for 3D asset work and have developed mobile augmented reality applications using Unity and Vuforia.</p>
+            <div class="skill-list"><span>Blender</span><span>Vuforia</span><span>Mobile AR</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio section-anchor" id="portfolio" aria-labelledby="portfolio-heading">
+      <div class="container">
+        <div class="section-heading portfolio-heading">
+          <div><p class="section-kicker">SELECTED WORK</p><h2 id="portfolio-heading">My Projects<span>.</span></h2></div>
+          <p>Games developed with my teams for school projects, competitions, and game jams.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card project-large">
+            <a href="https://flintlock-games.itch.io/etherfall" class="project-image" target="_blank" rel="noopener noreferrer" aria-label="View Etherfall on itch.io"><img src="assets/games/etherfall.png" alt="Etherfall game cover art" width="315" height="250" loading="lazy"><span class="view-overlay">View game <span aria-hidden="true">↗</span></span></a>
+            <div class="project-info"><div class="project-title-row"><h3>Etherfall</h3><span class="project-type">CAPSTONE PROJECT</span></div><p>A 3D mobile roguelike where players explore dungeons, fight enemies, and collect resources.</p><p class="project-award">Best Game &amp; Best Audio Design · EMC Grandfest 2026</p><a class="project-text-link" href="https://flintlock-games.itch.io/etherfall" target="_blank" rel="noopener noreferrer">View on itch.io <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card project-large">
+            <a href="https://flintlock-games.itch.io/zipzap-ninja" class="project-image" target="_blank" rel="noopener noreferrer" aria-label="View ZipZap Ninja on itch.io"><img src="assets/games/zipzap-ninja.png" alt="ZipZap Ninja game cover art" width="315" height="250" loading="lazy"><span class="view-overlay">View game <span aria-hidden="true">↗</span></span></a>
+            <div class="project-info"><div class="project-title-row"><h3>ZipZap Ninja</h3><span class="project-type">GLOBAL GAME JAM 2026</span></div><p>An arcade action game where players launch a ninja around an arena to knock out opponents.</p><p class="project-award">Best Audio Design · Global Game Jam 2026</p><a class="project-text-link" href="https://flintlock-games.itch.io/zipzap-ninja" target="_blank" rel="noopener noreferrer">View on itch.io <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <a href="https://flintlock-games.itch.io/wispguard" class="project-image" target="_blank" rel="noopener noreferrer" aria-label="View WispGuard on itch.io"><img src="assets/games/wispguard.png" alt="WispGuard game cover art" width="315" height="250" loading="lazy"><span class="view-overlay">View game <span aria-hidden="true">↗</span></span></a>
+            <div class="project-info"><div class="project-title-row"><h3>WispGuard</h3></div><span class="project-type project-event">YOUNG CREATIVES CHALLENGE S2</span><p>A fantasy tower defense game where players use defenses and abilities to stop incoming enemies.</p><a class="project-text-link" href="https://flintlock-games.itch.io/wispguard" target="_blank" rel="noopener noreferrer">View on itch.io <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <a href="https://flintlock-games.itch.io/cycend" class="project-image" target="_blank" rel="noopener noreferrer" aria-label="View CycEnd on itch.io"><img src="assets/games/cycend.png" alt="CycEnd game cover art" width="315" height="250" loading="lazy"><span class="view-overlay">View game <span aria-hidden="true">↗</span></span></a>
+            <div class="project-info"><div class="project-title-row"><h3>CycEnd</h3></div><span class="project-type project-event">CAMPUS DEVCON MANILA 2025</span><p>A 2D sci-fi action game about surviving waves of enemies and upgrading abilities.</p><p class="project-award">Best Game Design &amp; Top 4 · Campus Devcon Manila Game Jam 2025</p><a class="project-text-link" href="https://flintlock-games.itch.io/cycend" target="_blank" rel="noopener noreferrer">View on itch.io <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <a href="https://flintlock-games.itch.io/the-final-sprout" class="project-image" target="_blank" rel="noopener noreferrer" aria-label="View The Final Sprout on itch.io"><img src="assets/games/the-final-sprout.png" alt="The Final Sprout game cover art" width="315" height="250" loading="lazy"><span class="view-overlay">View game <span aria-hidden="true">↗</span></span></a>
+            <div class="project-info"><div class="project-title-row"><h3>The Final Sprout</h3></div><span class="project-type project-event">ARAL ARCADE GAME JAM</span><p>A tower defense game where players protect an enchanted tree from waves of enemies.</p><p class="project-award">1st Runner-Up &amp; People's Choice Award · Aral Arcade Game Jam</p><a class="project-text-link" href="https://flintlock-games.itch.io/the-final-sprout" target="_blank" rel="noopener noreferrer">View on itch.io <span aria-hidden="true">↗</span></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-anchor" id="contact" aria-labelledby="contact-heading">
+      <div class="container contact-layout">
+        <div><p class="section-kicker">CONTACT</p><h2 id="contact-heading">Contact Me<span>.</span></h2><p class="contact-summary">Feel free to get in touch about game projects or opportunities.</p></div>
+        <div class="contact-details">
+          <a class="email-link" href="mailto:aldwynn.urbistondo.dev@gmail.com">aldwynn.urbistondo.dev@gmail.com <span aria-hidden="true">↗</span></a>
+          <a class="phone-link" href="tel:+639509854523">0950 985 4523</a>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/aldwynn-urbistondo/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/AldwynnUrbistondo" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            <a href="https://flintlock-games.itch.io/" target="_blank" rel="noopener noreferrer">itch.io <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><span>© <span id="year">2026</span> Aldwynn Urbistondo</span><a href="#top">Back to top ↑</a></div></footer>
+</body>
+</html>
